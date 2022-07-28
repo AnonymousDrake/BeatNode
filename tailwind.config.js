@@ -5,8 +5,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        darkBlue: 'rgb(16, 23, 41)',
+        appBg: '#212121',
         white: 'white',
+        border: '#595959',
       },
     },
     screens: {

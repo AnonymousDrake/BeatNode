@@ -1,9 +1,10 @@
 import type { NextPage } from 'next';
-import { Header, Wrapper } from '@components';
+import { Header, Wrapper, Input } from '@components';
 
 const Home: NextPage = () => (
   <Wrapper>
     <Header />
+    <Input />
   </Wrapper>
 );
 

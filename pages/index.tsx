@@ -4,7 +4,7 @@ import { Header, Wrapper, Input } from '@components';
 const Home: NextPage = () => (
   <Wrapper>
     <Header />
-    <Input />
+    <Input label="Hello Parent" />
   </Wrapper>
 );
 

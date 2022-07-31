@@ -4,6 +4,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      fontFamily: {
+        poppins: ['Poppins'],
+      },
       colors: {
         appBg: '#212121',
         white: 'white',

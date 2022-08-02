@@ -2,14 +2,10 @@ import Image from 'next/image';
 
 const MusicBox = ({ label = 'SignIn' }) => {
   return (
-    <div className="bg-white padding: 5px">
-      <a href="default.asp">
-        <Image
-          alt="Sign Up With GOOGLE"
-          src={require('https://api.napster.com/imageserver/v2/artists/Art.44069/images/230x153.jpg')}
-          style={{ width: '40px', height: '40px' }}
-        />
-      </a>
+    <div className="bg-[url('../components/assets/technology-g2c4abdefe_1920.jpg')] h-80 w-80">
+      <h1 className="text-white font-bold">Top 500 Beats</h1>
+      <br></br>
+      <h3 className="text-white font-bold">India</h3>
     </div>
   );
 };

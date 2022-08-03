@@ -13,6 +13,7 @@ module.exports = {
         orange: '#FF7B5F',
         golden: '#BB895F',
         wine: '#79004C',
+        greyish: '#1F1D2B',
       },
     },
     screens: {

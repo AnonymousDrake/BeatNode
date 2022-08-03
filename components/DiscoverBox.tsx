@@ -1,16 +1,20 @@
 import Image from 'next/image';
 import ExploreButton from './ExploreButton';
 
-const DiscoverBox = ({ label = 'SignIn' }) => {
+const DiscoverBox = ({ label = 'Sample Song 1', imagesource = 'link' }) => {
   return (
-    <div className="bg-white padding: 5px">
-      <a href="default.asp">
-        <Image
-          alt="Sign Up With GOOGLE"
-          src={require('../components/assets/gicon.svg')}
-          style={{ width: '40px', height: '40px' }}
-        />
-      </a>
+    <div className="bg-px-2">
+      <div className="flex -mx-2">
+        <div className="w-1/6 px-2">
+          <div className="bg-orange h-12" />
+        </div>
+        <div className="w-4/6 px-2">
+          <p className="text-white text-2xl py-2">{label}</p>
+        </div>
+        <div className="w-1/6 px-2 py-2 .content-between">
+          <ExploreButton label="Discover" />
+        </div>
+      </div>
     </div>
   );
 };

@@ -1,0 +1,13 @@
+.explorebutton{
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 24px;
+gap: 10px;
+
+background: #bb5e07;
+border-radius: 28px;
+}

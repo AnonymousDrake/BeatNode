@@ -7,6 +7,7 @@ import {
   GoogleButton,
   MusicBox,
   ExploreButton,
+  DiscoverBox,
 } from '@components';
 
 const Home: NextPage = () => (
@@ -14,7 +15,7 @@ const Home: NextPage = () => (
     <Header />
     <Input label="Hello Parent" inputProps={{ placeholder: 'justramdone' }} />
 
-    <ExploreButton />
+    <DiscoverBox />
   </Wrapper>
 );
 

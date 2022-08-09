@@ -11,6 +11,10 @@ module.exports = {
         appBg: '#212121',
         white: 'white',
         border: '#595959',
+        orange: '#FF7B5F',
+        golden: '#BB895F',
+        wine: '#79004C',
+        greyish: '#1F1D2B',
       },
     },
     screens: {

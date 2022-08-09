@@ -10,6 +10,10 @@ module.exports = {
       colors: {
         darkBlue: 'rgb(16, 23, 41)',
         white: 'white',
+        orange: '#FF7B5F',
+        golden: '#BB895F',
+        wine: '#79004C',
+        greyish: '#1F1D2B',
       },
     },
     screens: {

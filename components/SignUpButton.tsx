@@ -1,9 +1,19 @@
-const SignUpButton = ({ label = 'SignIn' }) => {
+import { memo } from 'react';
+
+const SignUpButton = ({
+  label = 'SignIn',
+  buttonProps,
+}: {
+  buttonProps?: React.HTMLProps<HTMLButtonElement>;
+  label: string;
+}) => {
   return (
-    <div className="bg-white padding: 5px">
+    <div className="flex items-center justify-center bg-transparent p-[16px]">
       <button
-        type="button"
-        className="inline-block px-6 py-2.5 bg-white-600 text-wine font-poppins font-semibold text-xs leading-tight rounded-lg shadow-md "
+        // @ts-ignore: to be fixed
+        type="submit"
+        className="px-[64px] py-[8px] bg-white-600 text-wine font-poppins font-semibold text-s leading-tight rounded-lg shadow-md bg-white hover:bg-gray-300 active:scale-[98%]"
+        {...buttonProps}
       >
         {label}
       </button>
@@ -11,4 +21,4 @@ const SignUpButton = ({ label = 'SignIn' }) => {
   );
 };
 
-export default SignUpButton;
+export default memo(SignUpButton);

@@ -11,7 +11,7 @@ module.exports = {
         appBg: '#212121',
         white: 'white',
         border: '#595959',
-        orange: '#FF7B5F',
+        orange: 'rgba(255, 123, 95, 1)',
         golden: '#BB895F',
         wine: '#79004C',
         greyish: '#1F1D2B',
@@ -21,6 +21,9 @@ module.exports = {
         vGradient1: 'black',
         vGradient2: 'rgba(0, 0, 0, 0.65)',
         vGradient3: 'transparent',
+        lightOrange: 'rgba(69, 33, 41, 0.5)',
+        translucentOrange: 'rgba(255, 123, 95, 0.5)',
+        veryLightOrange: 'rgba(255, 123, 95, 0.2)',
       },
     },
     screens: {

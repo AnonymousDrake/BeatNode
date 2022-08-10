@@ -7,13 +7,15 @@ function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();
   return (
     <div className="w-screen h-screen">
-      <div className="absolute w-screen h-screen">
+      <div className="absolute w-screen h-screen z-[-1]">
         <Wrapper>{router.pathname === '/' ? <BackgroundImage /> : null}</Wrapper>
       </div>
-      <div>
-        <Component {...pageProps} />
+      <div className="flex flex-row z-10">
+        <div className="flex flex-7">
+          <Component {...pageProps} />
+        </div>
+        <div className="flex flex-3">{router.pathname === '/' ? <Login /> : <MusicPlayer />}</div>
       </div>
-      {router.pathname === '/' ? <Login /> : <MusicPlayer />}
     </div>
   );
 }

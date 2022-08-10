@@ -1,12 +1,18 @@
-const Input = ({ label = 'Hello', inputProps = { placeholder: 'Hello' } }) => {
+const Input = ({
+  label = 'Hello',
+  inputProps,
+}: {
+  inputProps?: React.HTMLProps<HTMLInputElement>;
+  label: string;
+}) => {
   return (
-    <div className="bg-white padding: 5px">
-      <label className="font-poppins px-1.6 text-orange">{label}</label> <br></br>
+    <div className="bg-transparent px-[4rem] my-[16px]">
+      <label className="font-poppins bg-gradient-to-bl from-gradient1 via-gradient2 text-transparent to-gradient3 px-[4px] bg-clip-text text-[20px]">
+        {label}
+      </label>{' '}
+      <br></br>
       <input
-        className="font-poppins px-2 border-b-4 border-orange text-golden"
-        type="text"
-        name="u"
-        // placeholder="Username"
+        className="font-poppins px-[4px] border-b-4 border-lightOrange text-white bg-transparent text-[16px] w-[100%]"
         {...inputProps}
       />
     </div>

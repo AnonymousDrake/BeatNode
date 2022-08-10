@@ -1,17 +1,18 @@
 import Image from 'next/image';
+import { memo } from 'react';
 
-const GoogleButton = ({ label = 'SignIn' }: { label: string }) => {
+const GoogleButton = ({ onClick }: { onClick: () => void }) => {
   return (
-    <div className="bg-white padding: 5px">
-      <a href="default.asp">
-        <Image
-          alt={label}
-          src={require('../components/assets/gicon.svg')}
-          style={{ width: '40px', height: '40px' }}
-        />
-      </a>
+    <div className="bg-transparent px-[5px] self-center my-[12px]">
+      <Image
+        onClick={onClick}
+        alt="Google login"
+        src={require('../components/assets/google-icon.png')}
+        height="32px"
+        width="32px"
+      />
     </div>
   );
 };
 
-export default GoogleButton;
+export default memo(GoogleButton);

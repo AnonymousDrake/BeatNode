@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['gcpimages.betterhalf.ai'],
+    domains: ['gcpimages.betterhalf.ai', 'www.pexels.com'],
   },
 };
 

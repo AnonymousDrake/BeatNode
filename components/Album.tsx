@@ -1,6 +1,7 @@
 import Image from 'next/image';
+import { memo } from 'react';
 // Music Box Incomplete
-const MusicBox = ({ label = 'SignIn' }) => {
+const Album = ({ label = 'SignIn' }) => {
   return (
     <div className="bg-cover bg-center h-80 w-80 bg-red display: flex position:relative">
       <Image src={require('../components/assets/horse.svg')} alt="Hello" />
@@ -14,4 +15,4 @@ const MusicBox = ({ label = 'SignIn' }) => {
   );
 };
 
-export default MusicBox;
+export default memo(Album);

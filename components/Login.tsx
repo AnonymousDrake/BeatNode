@@ -1,6 +1,4 @@
-import type { NextPage } from 'next';
-
-const Login: NextPage = () => {
+const Login = () => {
   return (
     <div>
       <h1 className="text-white">Hello</h1>

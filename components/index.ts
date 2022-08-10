@@ -1,9 +1,13 @@
 export { default as Header } from './Header';
 export { default as Wrapper } from './Wrapper';
-
+export { default as PlayerDrawer } from './PlayerDrawer';
+export { default as SearchField } from './SearchField';
 export { default as Input } from './Input';
 export { default as SignUpButton } from './SignUpButton';
 export { default as GoogleButton } from './GoogleButton';
-export { default as MusicBox } from './MusicBox';
+export { default as Album } from './Album';
 export { default as ExploreButton } from './ExploreButton';
 export { default as DiscoverBox } from './DiscoverBox';
+export { default as MusicPlayer } from './MusicPlayer';
+export { default as Login } from './Login';
+export { default as BackgroundImage } from './BackgroundImage';

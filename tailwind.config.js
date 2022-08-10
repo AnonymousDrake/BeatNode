@@ -19,7 +19,7 @@ module.exports = {
         gradient2: 'rgba(106, 38, 40, 1)',
         gradient3: 'rgba(61, 15, 54, 1)',
         vGradient1: 'black',
-        vGradient2: 'rgba(0, 0, 0, 0.6)',
+        vGradient2: 'rgba(0, 0, 0, 0.65)',
         vGradient3: 'transparent',
       },
     },

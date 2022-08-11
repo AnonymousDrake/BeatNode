@@ -7,6 +7,9 @@ module.exports = {
       fontFamily: {
         poppins: ['Poppins'],
       },
+      dropShadow: {
+        '3xl': '0 0 20px rgba(255, 177, 81, 0.77)',
+      },
       colors: {
         appBg: '#212121',
         white: 'white',
@@ -24,6 +27,7 @@ module.exports = {
         lightOrange: 'rgba(69, 33, 41, 0.5)',
         translucentOrange: 'rgba(255, 123, 95, 0.5)',
         veryLightOrange: 'rgba(255, 123, 95, 0.2)',
+        searchBg: 'rgba(255, 255, 255, 0.07)',
       },
     },
     screens: {

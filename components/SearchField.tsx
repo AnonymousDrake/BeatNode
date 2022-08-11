@@ -1,10 +1,10 @@
 const SearchField = () => (
   <input
-    type="text"
+    type="search"
     id="music-search"
     name="music-search"
-    placeholder="search..."
-    className="px-4 rounded-full hidden sm:flex"
+    placeholder="Search"
+    className="px-[24px] py-[6px] mx-[32px] rounded-full hidden grow sm:flex h-[44px] bg-searchBg text-white text-[16px] placeholder:text-white placeholder:text-[16px]"
   />
 );
 

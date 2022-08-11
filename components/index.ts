@@ -11,3 +11,7 @@ export { default as DiscoverBox } from './DiscoverBox';
 export { default as MusicPlayer } from './MusicPlayer';
 export { default as Login } from './Login';
 export { default as BackgroundImage } from './BackgroundImage';
+export { default as MusicBox } from './MusicBox';
+export { default as UserProfile } from './UserProfile';
+export { default as SongList } from './SongList';
+export { default as ImageWrapper } from './ImageWrapper';

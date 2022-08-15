@@ -8,7 +8,7 @@ const BackgroundImage = () => (
     layout="fill"
     width="100vw"
     height="100vh"
-    className="opacity-0 lg:opacity-5"
+    className="opacity-0 lg:opacity-[15%]"
   />
 );
 

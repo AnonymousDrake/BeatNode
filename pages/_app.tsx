@@ -11,9 +11,10 @@ function MyApp({ Component, pageProps }: AppProps) {
         <Wrapper>{router.pathname === '/' ? <BackgroundImage /> : null}</Wrapper>
       </div>
       <div className="flex flex-row flex-1 z-10 px-[32px] justify-between">
-        <div className="flex flex-2 h-screen items-start">
+        <div className="flex flex-2 items-start">
           <Component {...pageProps} />
         </div>
+        <div className="w-[2px] bg-lightOrange" />
         <div className="flex flex-1">{router.pathname === '/' ? <Login /> : <MusicPlayer />}</div>
       </div>
     </div>

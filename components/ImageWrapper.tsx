@@ -15,7 +15,7 @@ const ImageWrapper = ({
     alt: 'img-song',
   };
   return (
-    <div className="bg-[#C4C4C4] rounded-3xl hover:scale-110 mx-[24px]">
+    <div className="bg-[#C4C4C4] rounded-3xl hover:scale-105 mx-[24px]" draggable={false}>
       <Image
         src={src}
         alt={alt}

@@ -15,3 +15,4 @@ export { default as MusicBox } from './MusicBox';
 export { default as UserProfile } from './UserProfile';
 export { default as SongList } from './SongList';
 export { default as ImageWrapper } from './ImageWrapper';
+export { default as Slider } from './Slider';

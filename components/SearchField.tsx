@@ -4,7 +4,7 @@ const SearchField = () => (
     id="music-search"
     name="music-search"
     placeholder="Search"
-    className="px-[24px] py-[6px] mx-[32px] rounded-full hidden grow sm:flex h-[44px] bg-searchBg text-white text-[16px] placeholder:text-white placeholder:text-[16px]"
+    className="px-[24px] mx-[24px] rounded-full h-[48px] grow bg-searchBg text-white text-[16px] placeholder:text-white placeholder:text-[16px]"
   />
 );
 

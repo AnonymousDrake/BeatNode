@@ -16,6 +16,8 @@ const DiscoverBox = ({
             className="rounded-full border border-gray-100 shadow-sm"
             src={imageSource || 'https://randomuser.me/api/portraits/women/81.jpg'}
             alt="user image"
+            height={300}
+            width={200}
           />
         </div>
       </div>

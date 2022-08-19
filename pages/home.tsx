@@ -1,6 +1,7 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import Component1 from 'components/component1';
+import { Component2 } from '@components';
 
 const Home: NextPage = () => (
   <>
@@ -13,7 +14,7 @@ const Home: NextPage = () => (
         <Component1 />
       </div>
       <div className="flex flex-1">
-        <Component1 />
+        <Component2 />
       </div>
     </div>
   </>

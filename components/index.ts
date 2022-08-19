@@ -1,3 +1,5 @@
+import Component2 from './component2';
+
 export { default as Header } from './Header';
 export { default as Wrapper } from './Wrapper';
 export { default as PlayerDrawer } from './PlayerDrawer';
@@ -17,3 +19,4 @@ export { default as SongList } from './SongList';
 export { default as ImageWrapper } from './ImageWrapper';
 export { default as Slider } from './Slider';
 export { default as component1 } from './component1';
+export { default as Component2 } from './component2';

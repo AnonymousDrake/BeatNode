@@ -9,7 +9,7 @@ const DiscoverBox = ({
   imageSource: string | StaticImageData;
 }) => {
   return (
-    <div className="flex-1 flex">
+    <div className="flex-1 flex w-[100%]">
       <div className="rounded border-solid border-2 border-white-500 bg-greyish flex mx-2 my-2">
         <div className="w-2/12 px-2 py-2">
           <div className="relative w-12 h-12 ">

@@ -1,10 +1,10 @@
-import { memo } from 'react';
+import { ButtonHTMLAttributes, memo } from 'react';
 
 const SignUpButton = ({
   label = 'SignIn',
   buttonProps,
 }: {
-  buttonProps?: React.HTMLProps<HTMLButtonElement>;
+  buttonProps?: ButtonHTMLAttributes<HTMLButtonElement>;
   label: string;
 }) => {
   return (

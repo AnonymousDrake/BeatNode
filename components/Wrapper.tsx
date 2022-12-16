@@ -1,10 +1,12 @@
-import { memo, ReactNode } from 'react';
+import { memo } from 'react';
 
-const Wrapper = ({ children }: { children: ReactNode }) => (
-  <div className="flex flex-1 absolute w-screen h-screen bg-gradient-to-r from-gradient1 via-gradient2 to-gradient3 justify-center">
-    <div className="flex flex-1 absolute w-screen h-screen p-0 m-0">{children}</div>
-    <div className="absolute bg-gradient-to-b from-vGradient1 via-vGradient2 to-vGradient3 w-screen h-screen" />
-  </div>
+const Wrapper = () => (
+  <video
+    className="flex flex-1 w-full h-[100%] absolute z-0 object-cover"
+    src="https://assets.codepen.io/3364143/7btrrd.mp4"
+    autoPlay
+    loop
+  />
 );
 
 export default memo(Wrapper);

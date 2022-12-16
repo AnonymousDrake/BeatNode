@@ -16,3 +16,11 @@ export { default as UserProfile } from './UserProfile';
 export { default as SongList } from './SongList';
 export { default as ImageWrapper } from './ImageWrapper';
 export { default as Slider } from './Slider';
+
+export { default as BackgroundVideo } from './BackgroundVideo';
+export { default as RouteGuard } from './RouteGuard';
+export { default as Upload } from './Upload';
+export { default as Download } from './Download';
+export { default as TextInput } from './TextInput';
+export { default as RecordedMusic } from './RecordedMusic';
+export { default as Heading } from './Heading';

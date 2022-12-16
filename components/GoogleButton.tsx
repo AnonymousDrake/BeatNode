@@ -3,7 +3,7 @@ import { memo } from 'react';
 
 const GoogleButton = ({ onClick }: { onClick: () => void }) => {
   return (
-    <div className="bg-transparent px-[5px] self-center my-[12px]">
+    <div className="bg-white shadow-lg px-[5px] flex self-center my-[12px] cursor-pointer items-center py-1 rounded-full">
       <Image
         onClick={onClick}
         alt="Google login"

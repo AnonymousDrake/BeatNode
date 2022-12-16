@@ -4,12 +4,12 @@ import { ChangeEvent, useEffect, useState } from 'react';
 
 const Footer = ({ isLogin, onClick }: { isLogin: boolean; onClick: () => void }) => (
   <>
-    <p className="self-center text-translucentOrange">
+    <p className="self-center text-white">
       {isLogin ? 'New to Voiclone?' : 'Already have an account?'}
     </p>
     <p
       onClick={onClick}
-      className="self-center text-translucentOrange hover:cursor-pointer active:text-veryLightOrange"
+      className="self-center text-white hover:cursor-pointer active:text-veryLightOrange"
     >
       {isLogin ? 'Signup' : 'Login'}
     </p>
@@ -88,11 +88,11 @@ const Error = ({ label }: { label: string }) => (
 
 const SeparatorWithText = ({ isLogin }: { isLogin: boolean }) => (
   <div className="flex flex-row py-[16px] items-center">
-    <div className="px-[6px] h-[2px] w-[100%] bg-lightOrange" />
-    <p className="flex w-[100%] text-translucentOrange bg-clip-text items-center justify-center p-0">
+    <div className="px-[6px] h-[2px] w-[100%] bg-veryLightOrange" />
+    <p className="flex w-[100%] text-white bg-clip-text items-center justify-center p-0">
       or {isLogin ? 'login' : 'signup'} with
     </p>
-    <div className="px-[6px] h-[2px] w-[100%] bg-lightOrange" />
+    <div className="px-[6px] h-[2px] w-[100%] bg-veryLightOrange" />
   </div>
 );
 

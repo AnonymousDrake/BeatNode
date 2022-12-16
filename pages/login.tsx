@@ -22,10 +22,10 @@ const LoginScreen: NextPage = () => {
       </Head>
 
       <div className="h-screen w-screen flex items-center pl-[64px] flex-row justify-between">
-        <div className="flex w-[60vw] h-[100vh] justify-center flex-col items-start border-r-[2px] border-veryLightOrange">
+        <div className="flex w-[60vw] h-[100vh] justify-center flex-col items-start border-r-[2px] border-veryLightOrange z-10">
           <Title />
         </div>
-        <div className="flex flex-[1]">
+        <div className="flex flex-[1] z-10">
           <Login />
         </div>
       </div>
